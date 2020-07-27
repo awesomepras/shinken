@@ -20,4 +20,5 @@ perl -pe's/([(\d.)]+)/localtime $1/e;'
 
 
 Refer:
+https://www.howtoforge.com/tutorial/server-monitoring-with-shinken-on-ubuntu-16-04/
 https://www.unixmen.com/install-shinken-debian/
