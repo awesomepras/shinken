@@ -19,3 +19,5 @@
 perl -pe's/([(\d.)]+)/localtime $1/e;'
 
 
+Refer:
+https://www.unixmen.com/install-shinken-debian/
