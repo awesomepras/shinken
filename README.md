@@ -18,7 +18,13 @@
 - Logs are not in human readble format so you will need to use following perl hack
 perl -pe's/([(\d.)]+)/localtime $1/e;'
 
+Default port for shinken is 7767
 
 Refer:
 https://www.howtoforge.com/tutorial/server-monitoring-with-shinken-on-ubuntu-16-04/
 https://www.unixmen.com/install-shinken-debian/
+
+Step 2: COnfigure snmp on hosts that needs to be monitored:
+centos: https://kifarunix.com/install-and-configure-snmp-on-centos-8/
+windows: https://www.sysnettechsolutions.com/en/enable-snmp-on-windows-10/
+
